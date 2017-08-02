@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3552AA21F30896B00E580F1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3552AA11F30896B00E580F1 /* MovieDetailViewController.swift */; };
+		C36900911F2FFF8000A1BA81 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36900901F2FFF8000A1BA81 /* Movie.swift */; };
+		C36900931F30515200A1BA81 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36900921F30515200A1BA81 /* MovieCell.swift */; };
+		C36FF8751F315CDC00949599 /* LoadMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36FF8741F315CDC00949599 /* LoadMoreCell.swift */; };
 		C38AFA171F2F2C9B00813491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFA161F2F2C9B00813491 /* AppDelegate.swift */; };
-		C38AFA191F2F2C9B00813491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFA181F2F2C9B00813491 /* ViewController.swift */; };
+		C38AFA191F2F2C9B00813491 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFA181F2F2C9B00813491 /* MovieListTableViewController.swift */; };
 		C38AFA1C1F2F2C9B00813491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AFA1A1F2F2C9B00813491 /* Main.storyboard */; };
 		C38AFA1E1F2F2C9B00813491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38AFA1D1F2F2C9B00813491 /* Assets.xcassets */; };
 		C38AFA211F2F2C9B00813491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38AFA1F1F2F2C9B00813491 /* LaunchScreen.storyboard */; };
+		C38AFA291F2F314A00813491 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38AFA281F2F314A00813491 /* APIRequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C3552AA11F30896B00E580F1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		C36900901F2FFF8000A1BA81 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C36900921F30515200A1BA81 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C36FF8741F315CDC00949599 /* LoadMoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreCell.swift; sourceTree = "<group>"; };
 		C38AFA131F2F2C9B00813491 /* myMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38AFA161F2F2C9B00813491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C38AFA181F2F2C9B00813491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C38AFA181F2F2C9B00813491 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 		C38AFA1B1F2F2C9B00813491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C38AFA1D1F2F2C9B00813491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C38AFA201F2F2C9B00813491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C38AFA221F2F2C9B00813491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38AFA281F2F314A00813491 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				C38AFA161F2F2C9B00813491 /* AppDelegate.swift */,
-				C38AFA181F2F2C9B00813491 /* ViewController.swift */,
+				C38AFA181F2F2C9B00813491 /* MovieListTableViewController.swift */,
+				C3552AA11F30896B00E580F1 /* MovieDetailViewController.swift */,
+				C38AFA281F2F314A00813491 /* APIRequestManager.swift */,
+				C36FF8741F315CDC00949599 /* LoadMoreCell.swift */,
+				C36900901F2FFF8000A1BA81 /* Movie.swift */,
+				C36900921F30515200A1BA81 /* MovieCell.swift */,
 				C38AFA1A1F2F2C9B00813491 /* Main.storyboard */,
 				C38AFA1D1F2F2C9B00813491 /* Assets.xcassets */,
 				C38AFA1F1F2F2C9B00813491 /* LaunchScreen.storyboard */,
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38AFA191F2F2C9B00813491 /* ViewController.swift in Sources */,
+				C38AFA291F2F314A00813491 /* APIRequestManager.swift in Sources */,
+				C36FF8751F315CDC00949599 /* LoadMoreCell.swift in Sources */,
+				C38AFA191F2F2C9B00813491 /* MovieListTableViewController.swift in Sources */,
+				C36900911F2FFF8000A1BA81 /* Movie.swift in Sources */,
+				C36900931F30515200A1BA81 /* MovieCell.swift in Sources */,
+				C3552AA21F30896B00E580F1 /* MovieDetailViewController.swift in Sources */,
 				C38AFA171F2F2C9B00813491 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UGC2S44X5B;
 				INFOPLIST_FILE = myMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnrusselusi.myMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,6 +297,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UGC2S44X5B;
 				INFOPLIST_FILE = myMovies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnrusselusi.myMovies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +324,7 @@
 				C38AFA271F2F2C9B00813491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
